@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
-  <script src="jquery-3.4.0.min.js"></script>
 
 </head>
 
@@ -64,7 +63,7 @@
     <div class="container">
       <div class="intro-text">
         <div class="intro-lead-in">Hello!</div>
-        <div class="intro-heading">I am web dev And I F#@*ing love it!</div>
+        <div class="intro-heading">I am web dev And I love it!</div>
         <a href="#services" class="page-scroll btn btn-xl">About Me</a>
       </div>
     </div>
@@ -141,10 +140,10 @@
                 <i class="fa fa-plus fa-3x"></i>
               </div>
             </div>
-            <img src="" alt="">
+            <img src="../images/Eat-Da-Burger.png" alt="Burger" class="img-responsive" width="350px" height="auto">
           </a>
           <div class="portfolio-caption">
-            <h4>Eat-Da-Burger</h4>
+            <h4>Eat Da Burger</h4>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -154,10 +153,10 @@
                 <i class="fa fa-plus fa-3x"></i>
               </div>
             </div>
-            <img src="" alt="">
+            <img src="../images/Just-Eat-It.png" class="img-responsive" alt="Cooking Website" width="350px" height="auto">
           </a>
           <div class="portfolio-caption">
-            <h4>Just-Eat-It</h4>
+            <h4>Just Eat It</h4>
 
           </div>
         </div>
@@ -168,10 +167,10 @@
                 <i class="fa fa-plus fa-3x"></i>
               </div>
             </div>
-            <img src="" class="img-responsive" alt="">
+            <img src="../images/Take-A-Hike.png" class="img-responsive" alt="Take-A-Hike" width="350px" height="auto">
           </a>
           <div class="portfolio-caption">
-            <h4>Take-A-Hike</h4>
+            <h4>Take A Hike</h4>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -181,10 +180,10 @@
                 <i class="fa fa-plus fa-3x"></i>
               </div>
             </div>
-            <img src="" class="img-responsive" alt="">
+            <img src="../images/Friend-Finder.png" class="img-responsive" alt="Friend Finder" width="350px" height="auto">
           </a>
           <div class="portfolio-caption">
-            <h4>Bamazon</h4>
+            <h4>Friend Finder</h4>
 
           </div>
         </div>
@@ -195,10 +194,10 @@
                 <i class="fa fa-plus fa-3x"></i>
               </div>
             </div>
-            <img src="" alt="">
+            <img src="../images/Diamond-Collector.png" alt="Diamond Collector" width="350px" height="auto">
           </a>
           <div class="portfolio-caption">
-            <h4>Train Scheduler</h4>
+            <h4>Diamond Collector</h4>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -208,7 +207,7 @@
                 <i class="fa fa-plus fa-3x"></i>
               </div>
             </div>
-            <img src="" class="img-responsive" alt="">
+            <img src="../images/Trivia-Game.png" class="img-responsive" alt="Trivia Game" width="350px" height="auto">
           </a>
           <div class="portfolio-caption">
             <h4>Trivia Game</h4>
@@ -263,7 +262,6 @@
             </li>
             <li>
               <div class="timeline-image">
-                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -325,11 +323,7 @@
                     data-validation-required-message="Please enter your email address.">
                   <p class="help-block text-danger"></p>
                 </div>
-                <div class="form-group">
-                  <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required=""
-                    data-validation-required-message="Please enter your phone number.">
-                  <p class="help-block text-danger"></p>
-                </div>
+              
               </div>
               <div class="col-md-6">
                 <div class="form-group">
@@ -341,7 +335,7 @@
               <div class="clearfix"></div>
               <div class="col-lg-12 text-center">
                 <div id="success"></div>
-                <button type="submit" class="btn btn-xl">Send Message</button>
+                <button type="submit" id ="submit"class="btn btn-xl">Send Message</button>
               </div>
             </div>
           </form>
@@ -354,7 +348,7 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-lg-12" style="text-align:center;word-break:break-all;">
+        <div class="col-lg-6">
           <ul class="list-inline social-buttons">
             <li><a href="https://github.com/monikanikolova" <i class="fas fa-code-branch"></i></i></a>
             </li>
@@ -459,11 +453,10 @@
             <div class="modal-body">
               <!-- Project Details Go Here -->
               <h2>Eat-Da_Burger</h2>
-              <p class="item-intro text-muted">Sequalize/Handlebars/Express/
+              <p class="item-intro text-muted">Sequalize/Handlebars/Express
               </p>
-              <img class="img-responsive"
-                src="https://unsplash.imgix.net/uploads%2F1411419068566071cef10%2F7562527b?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=240c45655f09c546232a6f106688e502"
-                alt="">
+              <img class="img-responsive" src="../images/Eat-Da-Burger.png"
+                alt="Eat the Burger">
               <p>Eat-Da-Burger is a restaurant app that lets users input the names of burgers they'd like to eat.
                 Whenever a user submits a burger's name, the app will display the burger on the left side of the page,
                 waiting to be devoured. Each burger in the waiting area also has a Devour it! button. When the user
@@ -519,6 +512,9 @@
       </div>
     </div>
   </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <!-- jQuery Version 1.11.0 -->
   <script
     src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/jquery-1.11.0.js"></script>
@@ -541,6 +537,7 @@
     src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/contact_me.js"></script>
 
   <script src="/app.js"></script>
+  <script src="/mailer.js"></script>
   <span
     style="height: 20px; width: 40px; min-height: 20px; min-width: 40px; position: absolute; opacity: 0.85; z-index: 8675309; display: none; cursor: pointer; background-image: url();"></span>
 </body>
