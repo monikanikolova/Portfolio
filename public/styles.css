@@ -816,7 +816,8 @@ img::-moz-selection {
     text-align: center;
 }
 
-.icons {
+.icons,
+.social-buttons {
     zoom: 3;
 }
 
