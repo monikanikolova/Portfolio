@@ -711,28 +711,11 @@ footer ul.quicklinks {
 
 ul.social-buttons {
     margin-bottom: 0;
+    zoom: 3;
+    color: #222;
+    
 }
 
-ul.social-buttons li a {
-    display: block;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    font-size: 20px;
-    line-height: 40px;
-    outline: 0;
-    color: #fff;
-    background-color: #222;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    transition: all .3s;
-}
-
-ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
-    background-color: #ff686b;
-}
 
 .btn:focus,
 .btn:active,
@@ -828,5 +811,12 @@ img::selection {
 
 img::-moz-selection {
     background: 0 0;
+}
+.modal-body {
+    text-align: center;
+}
+
+.icons {
+    zoom: 3;
 }
 
