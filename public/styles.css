@@ -334,6 +334,18 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
+@media(min-width: 336px) {
+    #grid {
+        width: 330px;
+    }
+
+    #modal-img{
+        width: 300px;
+    }
+    
+   
+}
+
 @media(min-width:768px) {
     section {
         padding: 150px 0;
@@ -414,6 +426,15 @@ section h3.section-subheading {
 
 #portfolio * {
     z-index: 2;
+}
+
+#grid {
+    
+    height: auto;
+}
+
+h4 {
+    font-size: 30px;
 }
 
 @media(min-width:767px) {
