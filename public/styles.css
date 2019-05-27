@@ -224,6 +224,12 @@ fieldset[disabled] .btn-xl.active {
     background-color: #17d0d5;
 }
 
+#nav-name {
+    font-family: 'Lobster', cursive;
+    margin-left: 5px;
+    font-size: 25px;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
